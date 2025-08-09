@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>aditgemer - Toko Item Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="navbar" class="navbar">
+    <div class="brand">
+      <img src="logo.png" alt="aditgemer logo" class="brand-logo" />
+      <span class="brand-text">aditgemer</span>
+    </div>
+    <nav class="nav-links" role="navigation" aria-label="Main navigation">
+      <a href="tokoku.html" class="nav-link active">Beranda</a>
+      <a href="produk.html" class="nav-link">Produk</a>
+      <a href="kontak.html" class="nav-link">Kontak</a>
+      <a href="login.html" class="nav-link">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Selamat Datang di <span class="accent">aditgemer</span></h1>
+        <p class="subtitle">Toko item game & top-up — cepat, aman, terpercaya.</p>
+        <div class="hero-ctas">
+          <a href= "#productGrid" class="btn btn-primary">Produk Populer</a>
+          <a href="#productGrid" class="btn btn-ghost">lihat produk lain</a>
+        </div>
+      </div>
+      <div class="hero-decor"></div>
+    </section>
+
+    <section class="products-section">
+      <h2 class="section-title">Produk Populer</h2>
+
+      <div class="controls">
+        <input id="searchInput" placeholder="Cari produk (mis. diamond, pulsa)..." />
+        <select id="sortSelect" aria-label="Sort">
+          <option value="default">Urutkan</option>
+          <option value="price-asc">Harga: Terendah</option>
+          <option value="price-desc">Harga: Tertinggi</option>
+        </select>
+      </div>
+
+      <div id="productGrid" class="product-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 aditgemer — Semua hak dilindungi.</div>
+    <div class="footer-small">Designed with ♥ — Aditgemer</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk - aditgemer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: white;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: black;
+      box-shadow: 0 4px 15px rgba(0, 255, 255, 0.4);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: cyan;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: cyan;
+      text-shadow: 0 0 10px cyan;
+    }
+
+    /* Konten */
+    .container {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .see-more {
+      display: inline-block;
+      padding: 15px 35px;
+      background: cyan;
+      color: black;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      box-shadow: 0 0 15px cyan, 0 0 30px cyan;
+      transition: 0.3s ease-in-out;
+      animation: pulse 2s infinite;
+    }
+
+    .see-more:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px white, 0 0 40px cyan;
+      background: white;
+      color: black;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 10px cyan, 0 0 20px cyan; }
+      50% { box-shadow: 0 0 20px cyan, 0 0 40px cyan; }
+      100% { box-shadow: 0 0 10px cyan, 0 0 20px cyan; }
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 80px;
+      padding: 15px;
+      background: #000;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">ADITGEMER STORE</div>
+    <ul>
+      <li><a href="tokoku.html">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Konten -->
+  <div class="container">
+    <h1>Produk Lainnya Tersedia di Website Kami</h1>
+    <p>Klik tombol di bawah ini untuk melihat semua koleksi produk kami di Itemku!</p>
+    <a href="https://www.itemku.com/t/aditgemer-shop" target="_blank" class="see-more">Lihat Produk Lain</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 aditgemer. Semua Hak Dilindungi.
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
