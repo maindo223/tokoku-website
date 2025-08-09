@@ -1,0 +1,9 @@
+{
+  "name": "tokoku-website",
+  "version": "1.0.0",
+  "description": "Website toko online statis aditgemer",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {}
+}
